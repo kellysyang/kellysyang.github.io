@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bun Bun Bakeshop</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <!--top nav-->
+        <header>
+            <img src="images/bunbun.png" id="bunbun">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="float:right"><a class="active" href="#Search">Search</a></li>
+                <li style="float:right"><a class="active" href="#Cart">Cart</a></li>
+            </ul>
+        </header>
+        <!--back button-->
+        <a href="#" class="previous round">&#8249;</a>
+        <!--images and description-->
+        <div class="containers" id="details">
+            <div class="row">
+                <div class="col">
+                    <div class="details" id="images">
+                        <img class="originaldetail" id="products-image" src="images/original.jpg">
+                        <img src="images/roll.png" id="roll-image">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="details" id="text">
+                        <h1>Original Cinnamon Roll</h1>
+                        <p>Taste our original and most popular roll. Made with cinnamon wrapped in smooth, tender dough and freshly baked and frosted with your choice of signature frosting. Perfect as a snack or dessert. All rolls are available for delivery or pickup.</p>
+                        <p>Quantity</p>
+                            <input type="radio" id="1-roll" name="quantity" value="1-roll">
+                            <label for="1-roll">1 Roll</label><br>
+                            <input type="radio" id="3-rolls" name="quantity" value="3-rolls">
+                            <label for="3-rolls">3 Rolls</label><br>
+                            <input type="radio" id="6-rolls" name="quantity" value="6-rolls">
+                            <label for="6-rolls">6 Rolls</label><br>
+                            <input type="radio" id="12-rolls" name="quantity" value="12-rolls">
+                            <label for="12-rolls">12 Rolls</label><br>
+                        <p>Glazing</p>
+                            <input type="radio" id="none" name="glazing" value="None">
+                            <label for="none">None</label><br>
+                            <input type="radio" id="Sugar-Milk" name="glazing" value="Sugar-Milk">
+                            <label for="Sugar-Milk">Sugar-Milk</label><br>
+                            <input type="radio" id="Vanilla-Milk" name="glazing" value="Vanilla-Milk">
+                            <label for="Vanilla-Milk">Vanilla-Milk</label><br>
+                            <input type="radio" id="Double-Chocolate" name="glazing" value="Double-Chocolate">
+                            <label for="Double-Chocolate">Double-Chocolate</label><br>
+                        <p>Delivery</p>
+                            <input type="radio" id="delivery" name="delivery" value="delivery">
+                            <label for="delivery">Same day delivery</label><br>
+                            <input type="radio" id="pickup" name="delivery" value="pickup">
+                            <label for="pickup">In-store pickup</label><br>
+                        <br>
+                        <button class= "button" type="button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--suggested-->
+        <div id="suggested">
+            <h2>You May Also Like</h2>
+            <div class="container" id="suggested">
+                <div class="row">
+                    <div class="col">
+                        <div class="suggested">
+                            <img class="suggested-image" src="images/pumpkinspice.png" id="pumpkin">
+                            <p>Pumpkin Spice Cinnamon Roll</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="suggested">
+                            <img class="suggested-image" src="images/blackberry.jpg" id="blackberry">
+                            <p>Blackberry Cinnamon Roll</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="suggested">
+                            <img class="suggested-image" src="images/walnut.jpg" id="walnut">
+                            <p>Walnut Cinnamon Roll</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--reviews-->
+        <div id="reviews">
+            <h2>Customer Reviews</h2>
+            <p>No reviews yet. Be the first to write a review.</p>
+            <button class= "button" type="button">Write a Review</button>
+        </div>
+    </body>
+</html>

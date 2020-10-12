@@ -1,0 +1,229 @@
+html, body {
+    height: 100%;
+    background: #F5FAFA;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+}
+
+h1 { 
+    font-size: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Avenir;
+    line-height: 60px;
+    text-align: center;
+}
+
+h2 { 
+    font-size: 22px;
+    font-style: normal;
+    font-family: Avenir;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+h3 { 
+    font-size: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+/*----------------------- index --------------------------*/
+.banner{ 
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* bun bun intro */
+#about {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* fan favorites */
+#fanfavorites {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* bestsellers banner */
+
+#bestsellers.banner{
+    padding-top: 100px;
+}
+
+.bestsellers {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*----------------------- about --------------------------*/
+.about#para {
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.about#info {
+    text-align: center;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.about#aboutus {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.about#visiting {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/*----------------------- menu --------------------------*/
+.container#products {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#menu {
+    text-align: center;
+}
+/*----------------------- detail --------------------------*/
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+/* product images */
+img.originaldetail {
+    width:500px;
+    height:500px;
+} 
+
+.product{
+    width:300px;
+    height:300px;
+}
+
+img.suggested-image{
+    width:300px;
+    height:300px;
+}
+
+#roll-image {
+    max-width:80%;
+}
+
+/* product description */
+.details {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+
+#info.col {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.button {
+    background: #B7AFA3;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* suggested */
+#suggested {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+/* reviews */
+#reviews {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+/*----------------------- navigation buttons --------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F5FAFA;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Avenir, sans-serif;
+}
+  
+li a:hover {
+    background-color: #ACD1E9;
+}
+
+/*----------------------- general structure --------------------------*/
+.row {
+    display: flex;
+}
+  
+.col {
+    flex: 50%;
+    padding: 5px;
+}
+
+#bunbun {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:25%;
+    height:auto;
+}
+  
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
