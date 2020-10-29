@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bun Bun Bakeshop</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <!--top nav-->
+        <header>
+            <img src="images/bunbun.png" id="bunbun">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="float:right"><a class="active" href="#Search">Search</a></li>
+                <li style="float:right">
+                    <a class="active" href="cart.html" id="cart">Cart (0)</a>
+                </li>
+            </ul>
+        </header>
+        <div class="cart" id="yourcart">
+            <h2>Your Cart</h2>
+        </div>
+        <!--cart-->
+        <div class="containers">
+            <div class="row">
+                <div class="col">
+                    <div class="cart" id="image">
+                        <img class="cartimage" src="images/original.jpg" id="cartimage">
+                    </div>
+                </div>
+                <div class="col"> 
+                    <div class="cart" id="settings">  
+                        <h2>Original Cinnamon Roll</h2>
+                        <p>$25.99</p>
+                        <label for="Quantity">Quantity:</label>
+                        <select name="12 rolls" id="rolls">
+                            <option value="1">1 roll</option>
+                            <option value="3">3 rolls</option>
+                            <option value="6">6 rolls</option>
+                            <option value="12">12 rolls</option>
+                        </select>
+                    </br>
+                        <label for="Glazing">Glazing:</label>
+                        <select name="Sugar-Milk" id="Sugar-Milk">
+                            <option value="Sugar-Milk">Sugar-Milk</option>
+                            <option value="Vanilla-Milk">Vanilla-Milk</option>
+                            <option value="Double-Chocolate">Double-Chocolate</option>
+                            <option value="none">None</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cart" id="summary">
+                        <h2>Order Summary</h2>
+                        <p>Subtotal</p>
+                        <p>Same day delivery</p>
+                        <p>Estimated Total</p>
+                        <button class= "button" type="button">Checkout</button>
+                        <p>Continue Shopping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
