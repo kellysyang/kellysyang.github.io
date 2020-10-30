@@ -1,3 +1,4 @@
+// cart update
 function updateCart() {
     var itemCount = localStorage.getItem('itemCount');
 
@@ -20,6 +21,7 @@ function addToCart() {
     updateCart();
 }
 
+// details image update
 function update12() {
     document.getElementById('products-image').setAttribute("src", "images/original.jpg");
 }
@@ -36,6 +38,7 @@ function update6() {
     document.getElementById('products-image').setAttribute("src", "images/six.jpg");
 }
 
+// details title update
 function updateOriginal() {
     document.getElementById('producttitle').innerHTML = "Original Cinnamon Roll";
 }
@@ -52,6 +55,7 @@ function updateChocolate() {
     document.getElementById('producttitle').innerHTML = "Double Chocolate Original Cinnamon Roll";
 }
 
+// cart image update
 function updateCartImage() {
     item = document.getElementById('rolls').value;
     
@@ -69,6 +73,7 @@ function updateCartImage() {
     }
 }
 
+// cart title update
 function updateCartName() {
     item = document.getElementById('glazing').value;
 
