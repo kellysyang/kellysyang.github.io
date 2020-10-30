@@ -51,3 +51,8 @@ function updatevanilla() {
 function updatechocolate() {
     document.getElementById('producttitle').innerHTML = "Double Chocolate Original Cinnamon Roll";
 }
+
+function updateImageCart() {
+    item = document.getElementById('rolls').value;
+    console.log(item);
+}

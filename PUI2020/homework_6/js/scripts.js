@@ -36,18 +36,52 @@ function update6() {
     document.getElementById('products-image').setAttribute("src", "images/six.jpg");
 }
 
-function updateoriginal() {
+function updateOriginal() {
     document.getElementById('producttitle').innerHTML = "Original Cinnamon Roll";
 }
 
-function updatesugar() {
+function updateSugar() {
     document.getElementById('producttitle').innerHTML = "Sugar-Milk Original Cinnamon Roll";
 }
 
-function updatevanilla() {
+function updateVanilla() {
     document.getElementById('producttitle').innerHTML = "Vanilla-Milk Original Cinnamon Roll";
 }
 
-function updatechocolate() {
+function updateChocolate() {
     document.getElementById('producttitle').innerHTML = "Double Chocolate Original Cinnamon Roll";
+}
+
+function updateCartImage() {
+    item = document.getElementById('rolls').value;
+    
+    if (item == "1") {
+        update1();
+    }
+    else if (item == "3") {
+        update3();
+    }
+    else if (item == "6") {
+        update6();
+    }
+    else if (item == "12") {
+        update12();
+    }
+}
+
+function updateCartName() {
+    item = document.getElementById('glazing').value;
+
+    if (item == "None") {
+        updateOriginal();
+    }
+    else if (item == "Sugar-Milk") {
+        updateSugar();
+    }
+    else if (item == "Vanilla-Milk") {
+        updateVanilla();
+    }
+    else if (item == "Double-Chocolate") {
+        updateChocolate();
+    }
 }
