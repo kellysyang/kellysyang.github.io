@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <script src="js/scripts.js"></script>
     </head>
-    <body onload="updateCart()">
+    <body onload="displayCart()">
         <!--top nav-->
         <header>
             <img src="images/bunbun.png" id="bunbun">
@@ -24,43 +24,11 @@
         </div>
         <!--cart-->
         <div class="containers">
-            <div class="row">
-                <div class="col">
-                    <div class="cart" id="image">
-                        <img class="cartimage" src="images/one.jpg" id="products-image">
-                    </div>
-                </div>
-                <div class="col"> 
-                    <div class="cart" id="settings">  
-                        <h2 id="producttitle">Original Cinnamon Roll</h2>
-                        <p>$25.99</p>
-                        <label for="Quantity">Quantity:</label>
-                        <select name="12 rolls" id="rolls" onchange="updateCartImage()">
-                            <option value="1">1 roll</option>
-                            <option value="3">3 rolls</option>
-                            <option value="6">6 rolls</option>
-                            <option value="12">12 rolls</option>
-                        </select>
-                    </br>
-                        <label for="Glazing">Glazing:</label>
-                        <select name="None" id="glazing" onchange="updateCartName()">
-                            <option value="none">None</option>
-                            <option value="Sugar-Milk">Sugar-Milk</option>
-                            <option value="Vanilla-Milk">Vanilla-Milk</option>
-                            <option value="Double-Chocolate">Double-Chocolate</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="cart" id="summary">
-                        <h2>Order Summary</h2>
-                        <p>Subtotal: $25.99</p>
-                        <p>Same day delivery: $1.99</p>
-                        <p>Estimated Total: $27.98</p>
-                        <button class= "button" type="button">Checkout</button>
-                        <p>Continue Shopping</p>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="cart" id="summary">
+                <h2>Order Summary</h2>
+                <p id="price">Subtotal: $0.00</p>
+                <button class= "button" type="button">Checkout</button>
             </div>
         </div>
     </body>
