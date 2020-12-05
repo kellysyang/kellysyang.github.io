@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    background: #FFFFFF;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h1 { 
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Avenir;
+    line-height: 75px;
+}
+
+h2 { 
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Avenir;
+    line-height: 75px;
+    text-align: center;
+}
+
+#work.card{
+    margin-top: 30px;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-nav{
+    text-align: right;
+    font-size: 22px;
+}
