@@ -1,57 +1,87 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Portfolio</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- Bootstrap JS-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <!-- CSS-->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
-            <a class="navbar-brand" href="index.html">Kelly Yang</a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">work <span class="sr-only"></span></a>
-                    <a class="nav-item nav-link" href="play.html">play</a>
-                    <a class="nav-item nav-link" href="about.html">about</a>
+
+<head>
+    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" width="80" height="80" /></a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">work <span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href="play.html">play</a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Intro -->
+    <div class="container" id="work-intro">
+        <div class="row">
+            <h1>
+                Hi, I'm Kelly
+            </h1>
+        </div>
+        <div class="row">
+            <p> I’m a junior at <a class="detail-link" href="https://cmu.edu/"> Carnegie Mellon University </a>
+                <br></br>studying <a class="detail-link" href="https://hcii.cmu.edu/"> Human Computer Interaction </a>
+                and <a class="detail-link" href="https://www.cmu.edu/tepper/"> Business Administration. </a>
+                <br></br> and currently working as a User Experience Intern at <a class="detail-link"
+                    href="https://gridwise.io/"> Gridwise. </a></p>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="container" id="work">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card" id="work">
+                    <img class="card-img-top" src="closetcore/images/ClosetCore.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">ClosetCore</h5>
+                        <p class="card-text">An app integrating personalized fashion styling with socially conscious
+                            suggestions.</p>
+                        <a href="closetcore/closetcore.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="card" id="work">
+                    <img class="card-img-top" src="coart/images/CoArt.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">CoArt</h5>
+                        <p class="card-text">Investigation of citizen involvement in public art management through user
+                            research and prototyping of a mobile app.</p>
+                        <a href="coart/coart.html" class="btn btn-primary">View</a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="container" id="about-image">
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card" id="work">
-                        <img class="card-img-top" src="closetcore/images/ClosetCore.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">ClosetCore</h5>
-                            <p class="card-text">An app integrating personalized fashion styling with socially conscious suggestions.</p>
-                            <a href="closetcore/closetcore.html" class="btn btn-primary">View</a>
-                        </div>
-                    </div>
-                    <div class="card" id="work">
-                        <img class="card-img-top" src="coart/images/CoArt.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">CoArt</h5>
-                            <p class="card-text">Investigation of citizen involvement in public art management through user research and prototyping of a mobile app.</p>
-                            <a href="coart/coart.html" class="btn btn-primary">View</a>
-                        </div>
-                    </div>
-                </div>
             <div class="row">
                 <div class="card-deck">
                     <div class="card" id="work">
                         <img class="card-img-top" src="poparts/images/PopArts.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Pop Arts</h5>
-                            <p class="card-text">An E-commerce website for Pop Arts, an eBay based family business selling premium gifts and accessories.</p>
+                            <p class="card-text">An E-commerce website for Pop Arts, an eBay based family business
+                                selling premium gifts and accessories.</p>
                             <a href="poparts/poparts.html" class="btn btn-primary">View</a>
                         </div>
                     </div>
@@ -59,12 +89,20 @@
                         <img class="card-img-top" src="tuvo/images/Tuvo.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Tuvo</h5>
-                            <p class="card-text">An app offering users a streamlined group travel planning and collaboration experience.</p>
+                            <p class="card-text">An app offering users a streamlined group travel planning and
+                                collaboration experience.</p>
                             <a href="tuvo/tuvo.html" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
-    </body>
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer">
+            <div class="footer-copyright text-center">
+                This site was developed using <a class="detail-link" href="https://getbootstrap.com/"> Bootstrap
+                </a><br></br> 2020 © Kelly Yang </div>
+        </footer>
+</body>
+
 </html>
